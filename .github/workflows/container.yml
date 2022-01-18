@@ -21,7 +21,7 @@ jobs:
           push: true
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_ACCESS_TOKEN }}
-          tags: Croydon/jupyter:python-${{ matrix.python-version }}-${{ matrix.requirements }}
+          tags: croydon/jupyter:python-${{ matrix.python-version }}-${{ matrix.requirements }}
           build-args: |
             PYTHON_VERSION=${{ matrix.python-version }}
             REQUIREMENTS=${{ matrix.requirements }}
