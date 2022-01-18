@@ -5,7 +5,7 @@ This repository contains several Docker containers.
 
 ## Requirements
 
-  * Docker
+  * Docker Engine 19.03.0+
 
 
 ## License

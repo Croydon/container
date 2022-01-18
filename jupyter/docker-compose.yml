@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  jupyter:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - PYTHONHASHSEED=0
+    volumes:
+      - .:/mnt/notebook
