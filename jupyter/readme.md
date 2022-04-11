@@ -1,5 +1,10 @@
 # Jupyter Lap Container
 
+## Requirements
+
+  * Docker Engine 19.03.0+
+
+
 ## Usage
 
 Standard build with the default settings:
