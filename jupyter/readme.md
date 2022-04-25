@@ -7,6 +7,18 @@
 
 ## Usage
 
+### As Devcontainer in VS Code
+
+Copy the directory `juypter/` to the root of your project directory.
+Rename the `juypter/` directory to `.devcontainer/`.
+Choose one of the devcontainer files and rename the file to just `devcontainer.json`.
+You can delete the others if you want.
+Now, re-open your project in the devcontainer.
+VS Code will then proceed to build and start the container and you should be good to go.
+
+
+### With Docker Compose
+
 Standard build with the default settings:
 
 > docker-compose build
