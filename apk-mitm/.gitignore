@@ -1,0 +1,4 @@
+*.apk
+logs/*
+*_work/*
+patcher/*
