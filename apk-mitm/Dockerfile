@@ -58,9 +58,12 @@ RUN npm install --global apk-mitm \
         > /usr/bin/apk-mitm \
     && chmod +x /usr/bin/apk-mitm
 
+RUN ln -sf "$(command -v python3)" /usr/local/bin/python
+
 # Verify the required commands.
 RUN java -version \
     && node --version \
+    && python --version \
     && python3 --version \
     && apktool --version \
     && command -v zipalign >/dev/null \
