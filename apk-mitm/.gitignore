@@ -1,5 +1,5 @@
 *.apk
 logs/*
-*_work/*
+*_work*/*
 patcher/*
 *.keystore
